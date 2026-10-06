@@ -1,0 +1,17 @@
+# Xcode
+*.xcodeproj/
+xcuserdata/
+DerivedData/
+build/
+*.xcresult
+
+# Local config (copy Config.xcconfig.example)
+Config.xcconfig
+
+# Scaffold session state
+.scaffold-session.json
+
+.DS_Store
+
+# Design archives (the unpacked handoff folder is committed instead)
+*.zip

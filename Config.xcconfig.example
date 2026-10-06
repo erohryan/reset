@@ -1,0 +1,11 @@
+// Copy to Config.xcconfig and fill in. Config.xcconfig is gitignored.
+
+// Apple Developer Team ID (Xcode > Settings > Accounts, or developer.apple.com > Membership).
+// For the ResetDemo target a free personal team works. The full Reset target needs a paid team.
+DEVELOPMENT_TEAM =
+
+// Reverse-DNS prefix for bundle IDs, e.g. com.yourname
+BUNDLE_ID_PREFIX = com.example
+
+// App Group shared by the app and its shield extensions. Must start with "group.".
+APP_GROUP_ID = group.com.example.reset
